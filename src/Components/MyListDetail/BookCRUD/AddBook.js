@@ -1,4 +1,4 @@
-import { Alert, Button, ButtonGroup, Form, InputGroup } from "react-bootstrap";
+import { Button, ButtonGroup, Form, InputGroup } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 
 import BookDataService from "./services/book.services";
@@ -10,7 +10,7 @@ const AddBook = ({ id, setBookId }) => {
   const [pagecount, setPageCount] = useState("");
   const [status, setStatus] = useState("Completed");
   const [flag, setFlag] = useState(true);
-  const [message, setMessage] = useState({ error: false, msg: "" });
+//   const [message, setMessage] = useState({ error: false, msg: "" });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
