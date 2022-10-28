@@ -42,22 +42,22 @@ const BookList = () => {
   //   render() {
   return (
     <>
-      <div className="main-container">
-        <div className="top-head"></div>
-        <div className="">
-//           <form onSubmit={handleSubmit}>
-            <div className="search">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Search Book..."
-                onChange={handleChange}
-                autoComplete="off"
-              ></input>
-              <button type="submit">Search</button>
-            </div>
-          </form>
-        </div>
+//       <div className="main-container">
+//         <div className="top-head"></div>
+//         <div className="">
+// //           <form onSubmit={handleSubmit}>
+//             <div className="search">
+//               <input
+//                 type="text"
+//                 className="form-control"
+//                 placeholder="Search Book..."
+//                 onChange={handleChange}
+//                 autoComplete="off"
+//               ></input>
+//               <button type="submit">Search</button>
+//             </div>
+//           </form>
+//         </div>
 
         <div className="top-container">
           <h2>Find Books</h2>
