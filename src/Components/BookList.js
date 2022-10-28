@@ -8,10 +8,10 @@ const BookList = () => {
   const [result, setResult] = useState([]);
   const [show, setShow] = useState(false);
   const [bookItem, setItem] = useState();
-  const [apiKey, setApiKey] = useState(
-    "AIzaSyAWDokeMSsEd_OjRFwr3xHYiNOmR4dd1po"
-  );
-  //https://www.googleapis.com/books/v1/volumes?q=search-terms&key=AIzaSyAWDokeMSsEd_OjRFwr3xHYiNOmR4dd1po
+//   const [apiKey, setApiKey] = useState(
+//     "AIzaSyAWDokeMSsEd_OjRFwr3xHYiNOmR4dd1po"
+//   );
+//   //https://www.googleapis.com/books/v1/volumes?q=search-terms&key=AIzaSyAWDokeMSsEd_OjRFwr3xHYiNOmR4dd1po
 
   function handleChange(event) {
     const book = event.target.value;
