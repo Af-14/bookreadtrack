@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import Login from "./Login";
 // import Logout from "./Logout";
 import fire from "./fire";
-import Home from "../Home";
+// import Home from "../Home";
 import Header from "../Header";
 
 const Main = () => {
