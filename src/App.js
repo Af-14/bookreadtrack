@@ -7,8 +7,8 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import MyList from "./Components/MyList";
 import Main from "./Components/Main/Main";
-import Logout from "./Components/Main/Logout";
-import Login from "./Components/Main/Login";
+// import Logout from "./Components/Main/Logout";
+// import Login from "./Components/Main/Login";
 
 function App() {
   return (
